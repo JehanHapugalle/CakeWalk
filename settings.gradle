@@ -1,0 +1,2 @@
+rootProject.name = "The Cake Walk"
+include ':app'

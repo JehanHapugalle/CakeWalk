@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "923185024179",
+    "project_id": "the-cake-walk",
+    "storage_bucket": "the-cake-walk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923185024179:android:cb0b13f7c65a75baddf4c6",
+        "android_client_info": {
+          "package_name": "com.example.thecakewalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923185024179-otkfpfmt92327n2m653lmfsti968fuhl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiwO1eKVvOg4XfB9YtLIiersiBmrSg4nc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923185024179-otkfpfmt92327n2m653lmfsti968fuhl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
