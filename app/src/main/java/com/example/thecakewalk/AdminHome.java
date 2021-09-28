@@ -43,7 +43,8 @@ public class AdminHome extends AppCompatActivity {
         imageView3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(AdminHome.this, DeliveryList.class);
+                startActivity(intent);
             }
         });
 
