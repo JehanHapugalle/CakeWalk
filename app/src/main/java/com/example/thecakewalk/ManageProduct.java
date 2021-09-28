@@ -214,10 +214,19 @@ public class ManageProduct extends AppCompatActivity {
 
                             //check if data is empty
                             if (name.isEmpty()) {
+                                editText2.requestFocus();
                                 editText2.setError("Product Name is required");
+                            }else if(!name.matches("[a-zA-Z ]+")) {
+                                editText2.requestFocus();
+                                editText2.setError("Enter only letters");
                             }else if (price.isEmpty()) {
-                                editText3.setError("Product Price Number is required");
+                                editText3.requestFocus();
+                                editText3.setError("Product Price is required");
+                            }else if(price.length() > 5){
+                                editText3.requestFocus();
+                                editText3.setError("Product Price exceeds limit");
                             }else if (description.isEmpty()) {
+                                editText4.requestFocus();
                                 editText4.setError("Product Description is required");
                             }else {
 
